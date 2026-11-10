@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+
+# Dados dos processos SEI (contêm dados pessoais): não versionar.
+app/data/raw/*
+app/data/processed/*
+app/data/reports/
+!app/data/raw/.gitkeep
+!app/data/processed/.gitkeep
